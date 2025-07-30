@@ -11,6 +11,8 @@ Summary: A snapshot testing library for Rust
 
 Development: https://github.com/mitsuhiko/insta
 
+Documentation: https://docs.rs/insta/
+
 Snapshots tests (also sometimes called approval tests) are tests that
 assert values against a reference value (the snapshot). This is similar
 to how `assert_eq!` lets you compare a value against a reference value but
