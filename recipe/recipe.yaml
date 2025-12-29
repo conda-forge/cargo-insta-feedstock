@@ -1,6 +1,6 @@
 context:
   name: cargo-insta
-  version: "1.45.0"
+  version: "1.45.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/mitsuhiko/insta/releases/download/${{ version }}/source.tar.gz
-  sha256: b8b5e8904ca515cbb5c4d19d842303adbb1e26515228170e12047d74337ddce6
+  sha256: c8d755ca1befe644c4ec51ec0c1b54fc15accf4024de77f91ee90b0e245807fc
 
 build:
   number: 0
